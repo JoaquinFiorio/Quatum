@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.relative1{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+video{
+    width:110%;
+}
+
+.espacioBoton{
+    display:none;
+}
+
+.absolute{
+    width:100%;
+    height:100%;
+    top:0;
+    right:0;
+    position: absolute;
+}
+
+h1{
+    color: white;
+}
+
+.capa{
+    width:100%;
+    height:97.5%;
+    position:absolute;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+@media (max-width:425px){
+    .capa{
+        height:91.5%;
+    }
+    .showItem{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 991px){
+
+    .capa{
+        height: 97.5%;
+    }
+
+}
+
+@media (min-width: 1400px){
+
+    .capa{
+        height: 98.3%;
+    }
+
+}
+
+@media (max-width: 991px){
+    .espacioBoton{
+        display: block;
+    }
+    .buttonsCw{
+        margin-top: -30px;
+    }
+    .logo-slider{
+        margin-top:-20px
+    }
+    .capa{
+        height:96.5%;
+    }
+}
+
+@media (max-width: 965px){
+    .sub-heading{
+        display: none;
+    }
+    .buttonsCw{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:404px){
+    .tf-button{
+        padding: 9px 5px;
+        margin-right: 13px;
+        font-size: 14px;
+        width: 180px;
+    }
+}
+@media (max-width:965px){
+     h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:875px){
+    h1{
+       font-size: 40px;
+   }
+   .capa{
+    height:96%;
+}
+}
+
+@media (max-width: 710px){
+    .capa{
+        height:95.5%;
+    }
+}
+
+@media (max-width:570px){
+   
+   .capa{
+    height:94.5%;
+}
+}
